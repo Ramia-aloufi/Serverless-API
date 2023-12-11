@@ -23,6 +23,10 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs18.x
+  stage: dev
+  timeout: 15
+  region: us-east-1
+  memorySize: 2048
 
 # you can overwrite defaults here
 #  stage: dev
